@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collège Virtuel Discordien</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #3a0ca3, #4361ee);
+      color: white;
+    }
+    header {
+      background-color: rgba(0,0,0,0.2);
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: rgba(255,255,255,0.1);
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 30px;
+    }
+    .card {
+      background-color: rgba(255,255,255,0.1);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .note {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    .note:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Collège l'Union Supérieur
+  </header>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#notes">Notes</a>
+    <a href="#edt">Emploi du temps</a>
+    <a href="#annonces">Annonces</a>
+  </nav>
+
+  <div class="section" id="accueil">
+    <div class="card">
+      <h2>Bienvenue, Alevax A.</h2>
+      <p>Voici ton espace élève sécurisé et personnalisé.</p>
+    </div>
+  </div>
+
+  <div class="section" id="notes">
+    <div class="card">
+      <h2>Notes du trimestre</h2>
+      <div class="note"><span>Mathématiques</span><span>19.5 / 20</span></div>
+      <div class="note"><span>Français</span><span>15.5 / 20</span></div>
+      <div class="note"><span>Histoire-Géographie</span><span>17 / 20</span></div>
+      <div class="note"><span>Technologie</span><span>18 / 20</span></div>
+      <div class="note"><span>EPS</span><span>20 / 20</span></div>
+    </div>
+  </div>
+
+  <div class="section" id="edt">
+    <div class="card">
+      <h2>Emploi du temps</h2>
+      <p>Lundi : Maths - Français - Histoire</p>
+      <p>Mardi : Anglais - Techno - EPS</p>
+      <p>Mercredi : Maths - SVT</p>
+      <p>Jeudi : Français - Histoire - Arts</p>
+      <p>Vendredi : Maths - EPS - Détente</p>
+    </div>
+  </div>
+
+  <div class="section" id="annonces">
+    <div class="card">
+      <h2>Annonces</h2>
+      <p>🔔 Conseil de classe vendredi à 14h30.</p>
+      <p>📢 Pas de cours lundi prochain (jour férié).</p>
+    </div>
+  </div>
+</body>
+</html>
